@@ -97,7 +97,7 @@ impl<R: Rng + Spawner + Metrics + Clock> Actor<R> {
                                     }
 
                                     // Fill some random data.
-                                    let mut junk = vec![0u8; 1024 * 1024];
+                                    let mut junk = vec![0u8; 4 * 1024 * 1024];
                                     context.fill_bytes(&mut junk);
 
                                     let block = Block::new(parent.digest(), parent.height+1, current, junk);
