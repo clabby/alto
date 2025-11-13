@@ -340,7 +340,7 @@ fn generate_local(
     for (name, peer_config_file, _) in &configurations {
         let path = format!("{output}/{peer_config_file}");
         let command =
-            format!("cargo run --bin {BINARY_NAME} -- --peers={peers_path} --config={path}");
+            format!("cargo run --release --bin {BINARY_NAME} -- --peers={peers_path} --config={path}");
         println!("{name}: {command}");
     }
     println!("To view metrics, run:");
