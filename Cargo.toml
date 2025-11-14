@@ -15,19 +15,19 @@ license = "MIT OR Apache-2.0"
 [workspace.dependencies]
 alto-client = { version = "0.0.16", path = "client" }
 alto-types = { version = "0.0.16", path = "types" }
-commonware-broadcast = { git = "https://github.com/commonwarexyz/monorepo.git", branch = "cl/consensus-coding-mk2" }
-commonware-codec = { git = "https://github.com/commonwarexyz/monorepo.git", branch = "cl/consensus-coding-mk2" }
-commonware-consensus = { git = "https://github.com/commonwarexyz/monorepo.git", branch = "cl/consensus-coding-mk2" }
-commonware-cryptography = { git = "https://github.com/commonwarexyz/monorepo.git", branch = "cl/consensus-coding-mk2" }
-commonware-coding = { git = "https://github.com/commonwarexyz/monorepo.git", branch = "cl/consensus-coding-mk2" }
-commonware-deployer = {  git = "https://github.com/commonwarexyz/monorepo.git", branch = "cl/consensus-coding-mk2", default-features = false }
-commonware-macros = { git = "https://github.com/commonwarexyz/monorepo.git", branch = "cl/consensus-coding-mk2" }
-commonware-p2p = { git = "https://github.com/commonwarexyz/monorepo.git", branch = "cl/consensus-coding-mk2" }
-commonware-resolver = { git = "https://github.com/commonwarexyz/monorepo.git", branch = "cl/consensus-coding-mk2" }
-commonware-runtime = { git = "https://github.com/commonwarexyz/monorepo.git", branch = "cl/consensus-coding-mk2" }
-commonware-storage = { git = "https://github.com/commonwarexyz/monorepo.git", branch = "cl/consensus-coding-mk2" }
-commonware-stream = { git = "https://github.com/commonwarexyz/monorepo.git", branch = "cl/consensus-coding-mk2" }
-commonware-utils = { git = "https://github.com/commonwarexyz/monorepo.git", branch = "cl/consensus-coding-mk2" }
+commonware-broadcast = { git = "https://github.com/commonwarexyz/monorepo.git", branch = "cl/consensus-coding-rs-opt" }
+commonware-codec = { git = "https://github.com/commonwarexyz/monorepo.git", branch = "cl/consensus-coding-rs-opt" }
+commonware-consensus = { git = "https://github.com/commonwarexyz/monorepo.git", branch = "cl/consensus-coding-rs-opt" }
+commonware-cryptography = { git = "https://github.com/commonwarexyz/monorepo.git", branch = "cl/consensus-coding-rs-opt" }
+commonware-coding = { git = "https://github.com/commonwarexyz/monorepo.git", branch = "cl/consensus-coding-rs-opt" }
+commonware-deployer = {  git = "https://github.com/commonwarexyz/monorepo.git", branch = "cl/consensus-coding-rs-opt", default-features = false }
+commonware-macros = { git = "https://github.com/commonwarexyz/monorepo.git", branch = "cl/consensus-coding-rs-opt" }
+commonware-p2p = { git = "https://github.com/commonwarexyz/monorepo.git", branch = "cl/consensus-coding-rs-opt" }
+commonware-resolver = { git = "https://github.com/commonwarexyz/monorepo.git", branch = "cl/consensus-coding-rs-opt" }
+commonware-runtime = { git = "https://github.com/commonwarexyz/monorepo.git", branch = "cl/consensus-coding-rs-opt" }
+commonware-storage = { git = "https://github.com/commonwarexyz/monorepo.git", branch = "cl/consensus-coding-rs-opt" }
+commonware-stream = { git = "https://github.com/commonwarexyz/monorepo.git", branch = "cl/consensus-coding-rs-opt" }
+commonware-utils = { git = "https://github.com/commonwarexyz/monorepo.git", branch = "cl/consensus-coding-rs-opt" }
 thiserror = "2.0.12"
 bytes = "1.7.1"
 rand = "0.8.5"
